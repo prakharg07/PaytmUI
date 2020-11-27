@@ -18,6 +18,7 @@ html {
 	justify-content: space-between;
 	align-items: center;
 	margin:20px;
+	padding-top: 10px;
 }
 .pos-1
 {
@@ -31,6 +32,7 @@ img{
 	border-radius:100%;
 }
 .s-1{
+
 	font-size: 50px;
 	font-weight: 700;
 	margin-left:10px;	
@@ -40,7 +42,7 @@ img{
 	width:93%;
 	border-radius:30px;
 	margin:auto;
-	background-image: linear-gradient(rgb(6,93,190), rgb(6,161,239));
+	background-image: linear-gradient(rgb(1,70,150), rgb(11,169,245));
 	padding-top:80px;
 	padding-bottom:80px;
 	align-items: center;
@@ -109,20 +111,20 @@ img{
 	position: relative;
 	right:40px;
 	font-size:30px;
-	color:rgb(179,198,204);
+	color:darkgrey;
 
 }
 .s-6{
 	font-size:30px;
 	position: relative;
 	right:60px;
-	color:rgb(179,181,188);
+	color:darkgrey;
 }
 .s-7{
 	font-size:30px;
 	position: relative;
 	right:40px;
-	color:rgb(179,181,188);
+	color:darkgrey;
 }
 .box-4{
     display: flex;
@@ -177,7 +179,8 @@ img{
   box-shadow: 0 4px 8px 0 grey;
   text-align: center;
   border:1px grey;
-  border-radius: 10px;
+  border-radius: 20px;
+  margin-right: 60px;
 }
 
 .text-box {
@@ -187,6 +190,7 @@ img{
 	display:flex;
 	justify-content: space-around;
 	margin-top: 45px;
+	margin-left:400px;
 }
 .p-5{
 	font-size: 30px;
@@ -205,6 +209,7 @@ img{
 	font-size:40px;
 	font-weight: 600;
 	margin-left: 30px;
+
 }
 .s1{
 	font-size:30px;
@@ -237,5 +242,22 @@ hr{
 }
 .box-8{
 	margin-top:40px;
-	margin-right: 120px;
+	margin-right: 20px;
+}
+.scroller{
+	display: block
+	width:100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+.scroller::-webkit-scrollbar{
+	display: none;
+}
+.p-9{
+	font-size:40px;
+	font-weight: 700;
+	margin-top: 70px;
+	margin-left: 40px;
+	margin-bottom: 100px;
 }
