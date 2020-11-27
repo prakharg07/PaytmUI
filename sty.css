@@ -7,6 +7,12 @@ html {
     font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,sans-serif;
     font-size: 62.5%;  
  }
+ .container{
+ 	position: sticky;
+ 	top:0;
+ 	z-index:2;
+ 	background-color:white; 
+ }
 .box-1{
 	display: flex;
 	justify-content: space-between;
@@ -34,7 +40,7 @@ img{
 	width:93%;
 	border-radius:30px;
 	margin:auto;
-	background-image: linear-gradient(darkblue, blue);
+	background-image: linear-gradient(rgb(6,93,190), rgb(6,161,239));
 	padding-top:80px;
 	padding-bottom:80px;
 	align-items: center;
@@ -73,7 +79,7 @@ img{
 	border-radius: 30px;
 	margin:auto;
 	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-	margin-top:25px;
+	margin-top:45px;
 	padding-bottom: 120px;
 	padding-top:20px;
 	align-items: center;
@@ -103,16 +109,20 @@ img{
 	position: relative;
 	right:40px;
 	font-size:30px;
+	color:rgb(179,198,204);
+
 }
 .s-6{
 	font-size:30px;
 	position: relative;
 	right:60px;
+	color:rgb(179,181,188);
 }
 .s-7{
 	font-size:30px;
 	position: relative;
 	right:40px;
+	color:rgb(179,181,188);
 }
 .box-4{
     display: flex;
@@ -126,7 +136,7 @@ img{
 	width:45%;
 	padding:45px;
 	text-align: center;
-	background-color: powderblue;
+	background-color: rgb(240,251,255);
 	margin-left:5px;
 	align-items: center;
 	position: relative;
@@ -136,15 +146,15 @@ img{
 	border:1px lightblue solid;
 	border-radius: 25px;
 	padding:45px;
-	width:45%;
+	width:45%;   
 	text-align: center;
-	background-color: powderblue;
+	background-color: rgb(240,251,255);
     align-items: center;
     position: relative;
 	right:10px;
 }
 .p-3{
-	color:blue;
+	color:rgb(44,187,243);
 	font-size: 30px;
 }
 .box-5 {
@@ -216,7 +226,7 @@ hr{
 	margin-top: 45px;
 	display:flex;
 	justify-content:center;
-	margin-right:200px;
+	margin-right:100px;
 }
 .s2{
 	color:grey;
